@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.BusinessLayer\\InternetServicesProvider.BusinessLayer.csproj": {}
+  },
+  "projects": {
+    "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.BusinessLayer\\InternetServicesProvider.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.BusinessLayer\\InternetServicesProvider.BusinessLayer.csproj",
+        "projectName": "InternetServicesProvider.BusinessLayer",
+        "projectPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.BusinessLayer\\InternetServicesProvider.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
+        "outputPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KUMARUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.DataLayer\\InternetServicesProvider.DataLayer.csproj": {
+                "projectPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.DataLayer\\InternetServicesProvider.DataLayer.csproj"
+              },
+              "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.Entities\\InternetServicesProvider.Entities.csproj": {
+                "projectPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.Entities\\InternetServicesProvider.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.DataLayer\\InternetServicesProvider.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.DataLayer\\InternetServicesProvider.DataLayer.csproj",
+        "projectName": "InternetServicesProvider.DataLayer",
+        "projectPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.DataLayer\\InternetServicesProvider.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
+        "outputPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KUMARUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.Entities\\InternetServicesProvider.Entities.csproj": {
+                "projectPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.Entities\\InternetServicesProvider.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.Entities\\InternetServicesProvider.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.Entities\\InternetServicesProvider.Entities.csproj",
+        "projectName": "InternetServicesProvider.Entities",
+        "projectPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.Entities\\InternetServicesProvider.Entities.csproj",
+        "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
+        "outputPath": "D:\\IIHT\\Code_Clean\\Dotnet_FSE_PA_InternetServicesProvider\\InternetServicesProvider.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KUMARUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

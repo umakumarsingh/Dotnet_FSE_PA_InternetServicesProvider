@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "InternetServicesProvider.Entities/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.11.6"
+        },
+        "runtime": {
+          "InternetServicesProvider.Entities.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.11.6": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.6.0",
+            "fileVersion": "2.11.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InternetServicesProvider.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Bson/2.11.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JMxPQvz61IW+AFDWEkl4Dwswc4Eg6Zrii65T9R6VMHwdSdcb1eseHdwIyfjyf776vCmDVJbpSHW8075A6tTqqg==",
+      "path": "mongodb.bson/2.11.6",
+      "hashPath": "mongodb.bson.2.11.6.nupkg.sha512"
+    }
+  }
+}
